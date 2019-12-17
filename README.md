@@ -7,7 +7,7 @@
 用户可以在APP上查阅各种题型,关注大量公司招聘信息、进行。
 <br>
 ## 项目成员
-* 郜云飞（开发工程师，UI设计师，测试工程师）
+* 郜云飞（项目经理，开发工程师，测试工程师）
   * Email：1293873211@qq.com
   * Github：https://github.com/Gaoyunfei429
 * 于旭东（开发工程师，UI设计师，测试工程师）
@@ -22,6 +22,6 @@
 * 丁旭楠（开发工程师，UI设计师，测试工程师）
   * Email：695691236@qq.com
   * Github：https://github.com/Dingxunan
-* 肖志强（开发工程师，UI设计师，测试工程师）
+* 肖志强（开发工程师，测试工程师）
   * Email：944428625@qq.com
   * Github：https://github.com/xiaozhiqiang708
