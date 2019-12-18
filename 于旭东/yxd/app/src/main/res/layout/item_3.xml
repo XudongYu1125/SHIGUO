@@ -1,0 +1,28 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<!--    <CheckBox-->
+<!--        android:layout_width="0dp"-->
+<!--        android:enabled="false"-->
+<!--        android:id="@+id/check_box"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="2"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:id="@+id/item3_tv"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"/>
+
+
+
+
+
+
+</LinearLayout>

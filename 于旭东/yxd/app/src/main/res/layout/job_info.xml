@@ -1,0 +1,104 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <!--toolbar布局-->
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/add_apply_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="?attr/colorPrimaryDark"
+            app:navigationIcon="@drawable/back">
+
+            <TextView
+                android:id="@+id/title"
+                android:background="@null"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/job_info_toolbar_title"
+                android:textSize="20dp" />
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/job_info_title"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/add_apply_toolbar"
+            android:orientation="horizontal"
+            android:weightSum="10">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:textSize="25dp"
+                android:id="@+id/position_name"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="#1E90FF"
+                android:layout_weight="5"
+                android:textSize="15dp"
+                android:id="@+id/position_salary"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/job_info_request"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/job_info_title"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:weightSum="10">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="岗位要求"
+                android:textColor="#000000"
+                android:layout_weight="5"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:gravity="center_vertical"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/job_info_request"
+            android:paddingLeft="80dp"
+            android:textSize="15dp"
+            android:id="@+id/position_request"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_below="@id/position_request"
+            android:gravity="center"
+            android:layout_height="100dp">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="立即申请"
+                android:layout_marginTop="30dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_background"
+                android:id="@+id/job_info_submit" />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

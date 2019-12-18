@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.interview">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TabHostActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ExamPaperActivity" />
+        <activity android:name=".PaperActivity" />
+        <activity android:name=".PaperAnswerActivity" />
+        <activity android:name=".ModelPaperActivity" />
+        <activity android:name=".HandBookListActivity" />
+        <activity android:name=".HandBookActivity" />
+        <activity android:name=".ProblemListActivity" />
+        <activity android:name=".ProblemActivity" />
+        <activity android:name=".ProblemAnswerActivity" />
+        <activity android:name=".SerchProblemActivity" />
+        <activity android:name=".PersonalCertificateActivity" />
+        <activity android:name=".ResumeCenterActivity" />
+        <activity android:name=".ReceivedResumeActivity" />
+        <activity android:name=".MyResumeActivity" />
+        <activity android:name=".ResumeActivity" />
+        <activity android:name=".AddResumeActivity" />
+        <activity android:name=".EditResumeActivity" />
+        <activity android:name=".ChangePersonalActivity" />
+        <activity android:name=".NewResumeActivity" />
+        <activity android:name=".ChangeNameActivity" />
+        <activity android:name=".ChangeSexActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".ChangePasswordActivity"></activity>
+    </application>
+
+</manifest>

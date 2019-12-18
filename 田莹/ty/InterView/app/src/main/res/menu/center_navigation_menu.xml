@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/personal_certificate"
+        android:title="个人认证"
+        android:icon="@drawable/personal_certificate"/>
+    <item android:title="简历中心"
+        android:icon="@drawable/resume"/>
+</menu>

@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:onClick="toself"
+            android:id="@+id/con_imgu"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/defaulthead" />
+
+        <TextView
+            android:id="@+id/con_tvu"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="你好，看到了你的简历，有时间可以过来面试o oooooaaaaaaaaaaaaaaaaaa"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+</LinearLayout>

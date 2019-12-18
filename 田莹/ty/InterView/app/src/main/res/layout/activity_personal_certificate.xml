@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:theme="@style/MyEditText"
+        android:layout_marginTop="20dp"
+        android:hint="公司名称"
+        android:textSize="18dp"
+        android:id="@+id/et_company_name"
+        android:layout_width="360dp"
+        android:layout_height="50dp" />
+    <EditText
+        android:theme="@style/MyEditText"
+        android:hint="验证号码"
+        android:textSize="18dp"
+        android:id="@+id/et_verification"
+        android:layout_width="360dp"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_certificate"
+        android:textSize="20dp"
+        android:text="提交信息"
+        android:textColor="@android:color/white"
+        android:background="@color/colorBtn"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

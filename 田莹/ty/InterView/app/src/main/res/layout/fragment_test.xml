@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:lines="1"
+            android:singleLine="true"
+            android:id="@+id/et_type"
+            android:textSize="20dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:hint="请输入您要搜索的题库"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_marginTop="5dp"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:background="@color/colorIcon"
+        android:layout_width="10dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:text="我的题库"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:background="@android:color/white"
+            android:id="@+id/ll_exam"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_marginTop="13dp"
+                android:src="@drawable/exampaper"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:text="真题"
+                android:layout_marginTop="4dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@android:color/white"
+            android:id="@+id/ll_model"
+            android:layout_marginLeft="3dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_marginTop="13dp"
+                android:src="@drawable/modelpaper"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:text="模拟题"
+                android:layout_marginTop="4dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="3dp"
+            android:background="@android:color/white"
+            android:id="@+id/ll_face"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_marginTop="13dp"
+                android:src="@drawable/facepaper"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="面试宝典"
+                android:layout_marginTop="4dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp">
+        <LinearLayout
+            android:background="@android:color/white"
+            android:id="@+id/choose_question"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/choose_question"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="选择题"
+                android:layout_marginTop="4dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="3dp"
+            android:gravity="center"
+            android:background="@android:color/white"
+            android:id="@+id/blanks_question"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/blanks_question"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="填空题"
+                android:layout_marginTop="4dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="3dp"
+            android:background="@android:color/white"
+            android:id="@+id/short_question"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_marginTop="13dp"
+                android:src="@drawable/short_question"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="简答题"
+                android:layout_marginTop="4dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

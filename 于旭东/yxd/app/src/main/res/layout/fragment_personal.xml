@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/ll_change"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/center_back1">
+        <ImageView
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/default_vatar"
+            android:layout_width="80dp"
+            android:id="@+id/iv_person"
+            android:layout_height="80dp" />
+        <TextView
+            android:id="@+id/tv_person_nickname"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="山河永蔚"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:id="@+id/ll_personal_certificate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/personal_certificate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="个人认证"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/right_arrow"
+            android:layout_marginLeft="180dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:background="@color/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+    <LinearLayout
+        android:background="@android:color/white"
+        android:id="@+id/ll_resume_center"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/resume_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="简历中心"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/right_arrow"
+            android:layout_marginLeft="180dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:background="@color/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+    <LinearLayout
+        android:background="@android:color/white"
+        android:id="@+id/ll_settings"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/personal_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="设置         "
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/right_arrow"
+            android:layout_marginLeft="180dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:background="@color/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+</LinearLayout>

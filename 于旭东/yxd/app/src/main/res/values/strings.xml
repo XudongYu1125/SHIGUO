@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">试过</string>
+    <string name="list1">职位介绍</string>
+    <string name="list2">求职广场</string>
+    <string name="searchHint">请输入要搜索的求职或招聘信息</string>
+    <string name="attention">求职意向：</string>
+    <string name="new_apply_toolbar_title">发布求职信息</string>
+    <string name="new_job_toolbar_title">发布招聘信息</string>
+    <string name="tip_new_job_name">请输入职务名称</string>
+    <string name="tip_new_job_request">请输入你的招聘要求</string>
+    <string name="tip_new_apply_jobName">请输入意向职位</string>
+    <string name="tip_new_apply_place">请输入意向工作地点</string>
+    <string name="tip_new_apply_experience">请输入你的工作经历</string>
+    <string name="tip_new_apply_salary">请输入你的意向薪资</string>
+    <string name="job_info_toolbar_title">岗位信息</string>
+    <string name="apply_job_toolbar_title">求职信息</string>
+    <string name="new_resume_toolbar_title">新建简历</string>
+    <string name="tip_new_resume_username">请输入姓名</string>
+    <string name="tip_new_resume_userBirth">请输入出生日期</string>
+    <string name="tip_new_resume_university">毕业院校</string>
+    <string name="tip_new_resume_experience">工作经历</string>
+    <string name="tip_new_resume_ability">个人能力</string>
+    <string name="submit_resume_toolbar_title">简历投递</string>
+    <string name="resume_info_userName">姓名</string>
+
+</resources>

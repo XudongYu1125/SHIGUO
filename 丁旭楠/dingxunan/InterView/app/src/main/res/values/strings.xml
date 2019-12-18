@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InterView</string>
+    <item name="Tag_Sender" type="id"></item>
+    <item name="Tag_Recevier" type="id"></item>
+</resources>

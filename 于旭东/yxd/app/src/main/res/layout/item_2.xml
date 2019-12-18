@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+    <ImageView
+        android:id="@+id/user_img"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:src="@drawable/add" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5.5"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingTop="10dp"
+            android:id="@+id/user_name"
+            android:text="山海永相存"
+            android:textSize="30dp"
+            android:textColor="#bebebe"
+            android:paddingLeft="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="5.5"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/attention"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:id="@+id/attention"
+                android:layout_weight="3.5"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/publish_date"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:paddingTop="10dp"
+        android:textSize="15dp" />
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/submit_resume_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="?attr/colorPrimaryDark"
+            app:navigationIcon="@drawable/back">
+
+            <TextView
+                android:id="@+id/title"
+                android:background="@null"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/submit_resume_toolbar_title"
+                android:textSize="20dp" />
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/submit_resume_title"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/submit_resume_toolbar"
+            android:orientation="horizontal"
+            android:weightSum="10">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:textSize="25dp"
+                android:id="@+id/submit_resume_position_name"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="#1E90FF"
+                android:layout_weight="5"
+                android:textSize="15dp"
+                android:id="@+id/submit_resume_position_salary"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/submit_resume_title"
+            android:text="请选择要使用的简历"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:id="@+id/tv_tips"
+            android:textSize="17dp"
+            android:textColor="#000000"/>
+        <android.support.v7.widget.RecyclerView
+            android:paddingLeft="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_submit_resume"
+            android:layout_below="@id/tv_tips"/>
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:weightSum="10"
+            android:layout_below="@id/rv_submit_resume"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:text="或者新建简历"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textColor="#000000"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:text="立即新建简历"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                android:textSize="13dp"/>
+            <ImageView
+                android:id="@+id/add_new_resume"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:src="@drawable/write"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

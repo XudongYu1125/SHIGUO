@@ -1,0 +1,189 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/apply_job_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="?attr/colorPrimaryDark"
+            app:navigationIcon="@drawable/back">
+
+            <TextView
+                android:id="@+id/title"
+                android:background="@null"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/apply_job_toolbar_title"
+                android:textSize="20dp" />
+        </android.support.v7.widget.Toolbar>
+        <LinearLayout
+            android:id="@+id/liner"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/apply_job_toolbar"
+            android:orientation="horizontal"
+            android:weightSum="10">
+            
+            <ImageView
+                android:src="@drawable/add"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_weight="5">
+                <TextView
+                    android:padding="10dp"
+                    android:id="@+id/apply_info_user_name"
+                    android:textSize="35dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"/>
+                <TextView
+                    android:textSize="15dp"
+                    android:padding="10dp"
+                    android:id="@+id/apply_info_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="2"
+                android:id="@+id/chat"
+                android:src="@drawable/chat" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/liner2"
+            android:layout_below="@+id/liner">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="求职意向"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:textSize="25dp"
+                    android:textColor="#000000"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="4"
+                        android:layout_height="match_parent"
+                        android:text="意向职务"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="73dp"
+                        android:textSize="15dp"
+                        android:textColor="#000000"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:text="房间号"
+                        android:textSize="15dp"
+                        android:id="@+id/apply_info_position"
+                        android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="4"
+                        android:layout_height="match_parent"
+                        android:text="工作地点"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="73dp"
+                        android:textSize="15dp"
+                        android:textColor="#000000"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:text="房间号"
+                        android:textSize="15dp"
+                        android:id="@+id/apply_info_place"
+                        android:gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="4"
+                        android:layout_height="match_parent"
+                        android:text="意向薪资"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="73dp"
+                        android:textSize="15dp"
+                        android:textColor="#000000"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:text="房间号"
+                        android:id="@+id/apply_info_salary"
+                        android:textSize="15dp"
+                        android:gravity="center_vertical"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@id/liner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="工作经历"
+                android:gravity="center_vertical"
+                android:paddingLeft="73dp"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_marginLeft="102dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="房间号"
+                android:textSize="15dp"
+                android:id="@+id/apply_info_experience"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
