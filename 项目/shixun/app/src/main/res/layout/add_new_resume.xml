@@ -1,0 +1,133 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/add_resume_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="?attr/colorPrimaryDark"
+            android:paddingLeft="0dp"
+            app:navigationIcon="@drawable/back">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/new_resume_toolbar_title"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/new_resume_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:paddingRight="20dp"
+                android:src="@drawable/submit" />
+        </android.support.v7.widget.Toolbar>
+
+        <EditText
+            android:id="@+id/new_resume_resumeName_ed"
+            style="?android:attr/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/add_resume_toolbar"
+            android:background="@null"
+            android:hint="请输入简历名"
+            android:padding="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/new_resume_resumeName_ed"
+            android:background="#bebebe" />
+
+        <EditText
+            android:id="@+id/new_resume_userName_ed"
+            style="?android:attr/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/new_resume_resumeName_ed"
+            android:background="@null"
+            android:hint="@string/tip_new_resume_username"
+            android:padding="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/new_resume_userName_ed"
+            android:background="#bebebe" />
+
+        <EditText
+            android:id="@+id/new_resume_userBirth_ed"
+            style="?android:attr/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/new_resume_userName_ed"
+            android:background="@null"
+            android:hint="@string/tip_new_resume_userBirth"
+            android:padding="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/new_resume_userBirth_ed"
+            android:background="#bebebe" />
+
+        <EditText
+            android:id="@+id/new_resume_userUniversity_ed"
+            style="?android:attr/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/new_resume_userBirth_ed"
+            android:background="@null"
+            android:hint="@string/tip_new_resume_university"
+            android:padding="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/new_resume_userUniversity_ed"
+            android:background="#bebebe" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear2"
+            android:layout_below="@id/new_resume_userUniversity_ed"
+            android:minHeight="300dp">
+            <EditText
+                android:id="@+id/new_resume_userExperience_ed"
+                style="?android:attr/textViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="@string/tip_new_resume_experience"
+                android:padding="15dp" />
+        </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/new_resume_userAbility_ed"
+            style="?android:attr/textViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear2"
+            android:background="@null"
+            android:hint="@string/tip_new_resume_ability"
+            android:padding="15dp" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

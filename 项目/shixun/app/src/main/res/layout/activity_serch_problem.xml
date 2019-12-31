@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp">
+
+
+        <EditText
+            android:lines="1"
+            android:singleLine="true"
+            android:id="@+id/et_serch"
+            android:textSize="20dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:hint="请输入您要搜索的题库"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lv_problem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+</LinearLayout>

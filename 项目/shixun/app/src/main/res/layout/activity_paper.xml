@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:text="这是一套试卷"
+                android:textSize="20dp"
+                android:id="@+id/tv_paper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/btn_paper_answer"
+        android:textColor="@android:color/white"
+        android:background="@color/colorBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="300dp"
+        android:text="查看试题详解"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+

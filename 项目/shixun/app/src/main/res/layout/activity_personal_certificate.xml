@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/nickname" />
+
+        <EditText
+            android:id="@+id/et_company_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="公司名称"
+            android:selectAllOnFocus="true"
+            android:textSize="20sp"
+            android:theme="@style/MyEditText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/code" />
+
+        <EditText
+            android:id="@+id/et_verification"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="验证号码"
+            android:selectAllOnFocus="true"
+            android:textSize="20sp"
+            android:theme="@style/MyEditText" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_certificate"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorBtn"
+        android:text="提交信息"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+</LinearLayout>
